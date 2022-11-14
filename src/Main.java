@@ -77,6 +77,19 @@ public class Main {
             } else {
             System.out.println("Мест нет! Вам необходимо пройти в следующий вагон.");
         }
+        //Задача №7
+        System.out.println("Задача №7");
+        int peapleAge = 10;
+        if (peapleAge >=2 && peapleAge <=6) {
+            System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в детский сад");}
+        if (peapleAge >= 7 && peapleAge <= 18) {
+            System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в школу");}
+        if (peapleAge > 18 && peapleAge < 24) {
+            System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в университет");}
+        if (peapleAge >= 24) {
+            System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить на работу");}
+
+
 
     }
 }
