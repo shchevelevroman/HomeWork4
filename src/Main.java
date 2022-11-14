@@ -77,9 +77,11 @@ public class Main {
             } else {
             System.out.println("Мест нет! Вам необходимо пройти в следующий вагон.");
         }
-        //Задача №7
+        //Задача №7 (разобраться с else)
         System.out.println("Задача №7");
         int peapleAge = 10;
+        if (peapleAge < 2) {
+            System.out.println("ты еще слишком мал");}
         if (peapleAge >=2 && peapleAge <=6) {
             System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в детский сад");}
         if (peapleAge >= 7 && peapleAge <= 18) {
@@ -88,6 +90,21 @@ public class Main {
             System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в университет");}
         if (peapleAge >= 24) {
             System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить на работу");}
+
+        //Задача №8 (разобраться с else)
+        System.out.println("Задача №8");
+        short ageChildren = 7;
+        if (ageChildren <= 5) {
+            System.out.println("Если ребенку " + ageChildren + ", то ему еще нельзя кататься на данном аттракционе");}
+        if (ageChildren > 5 && ageChildren <= 14) {
+            System.out.println("Если ребенку " + ageChildren + ", кататься на данном аттракционе можно только с сопровождением взрослого");}
+        if (ageChildren > 14) {
+            System.out.println("Если ребенку " + ageChildren + ", то ему еще нельзя кататься на данном аттракционе ,без присутствия взрослого");}
+
+        //Задача №9
+        System.out.println("Задача №9");
+
+
 
 
 
