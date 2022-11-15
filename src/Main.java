@@ -51,58 +51,59 @@ public class Main {
         }
         //Задача №5
         System.out.println("Задача №5");
-        short ageKids = 24;
+        short ageKids = 23;
         if (ageKids < 7){
-            System.out.println("Вам необходимо еще повзрослеть");
-        }
-        if (ageKids >= 7)
-            if (ageKids < 18) {
-                System.out.println("Вам пора идти в школу");
-            }
-        if (ageKids >= 18)
-            if (ageKids < 24) {
+            System.out.println("Вам необходимо еще повзрослеть");}
+        else if (ageKids >= 7 && ageKids < 18) {
+                System.out.println("Вам пора идти в школу");}
+        else if (ageKids >= 18 && ageKids < 24) {
                 System.out.println("Вам пора идти в университет");
-            } else {
-            System.out.println("Вам пора идти на работу");
-        }
+        } else {
+            System.out.println("Вам пора идти на работу");}
         //Задача №6
         System.out.println("Задача №6");
-        short passNumber = 120;
+        short passNumber = 5;
         if (passNumber <= 60) {
-            System.out.println("Отлично! Вам повезло, в вагоне есть еще сидячие места.");
-        }
-        if (passNumber > 60)
-            if (passNumber <= 102) {
+            System.out.println("Отлично! Вам повезло, в вагоне есть еще сидячие места.");}
+        else if (passNumber > 60 && passNumber <= 102) {
                 System.out.println("Вы еще можете проехать в вагоне стоя, к сожалению, стоячих мест нет.");
-            } else {
-            System.out.println("Мест нет! Вам необходимо пройти в следующий вагон.");
-        }
-        //Задача №7 (разобраться с else)
+        } else {
+            System.out.println("Мест нет! Вам необходимо пройти в следующий вагон.");}
+        //Задача №7
         System.out.println("Задача №7");
-        int peapleAge = 10;
+        int peapleAge = 24;
         if (peapleAge < 2) {
             System.out.println("ты еще слишком мал");}
-        if (peapleAge >=2 && peapleAge <=6) {
+        else if (peapleAge >=2 && peapleAge <=6) {
             System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в детский сад");}
-        if (peapleAge >= 7 && peapleAge <= 18) {
+        else if (peapleAge >= 7 && peapleAge <= 18) {
             System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в школу");}
-        if (peapleAge > 18 && peapleAge < 24) {
-            System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в университет");}
-        if (peapleAge >= 24) {
+        else if (peapleAge > 18 && peapleAge < 24) {
+            System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить в университет");
+        } else {
             System.out.println("Если возраст человека равен " + peapleAge + ", то ему нужно ходить на работу");}
 
-        //Задача №8 (разобраться с else)
+        //Задача №8
         System.out.println("Задача №8");
-        short ageChildren = 7;
+        short ageChildren = 14;
         if (ageChildren <= 5) {
             System.out.println("Если ребенку " + ageChildren + ", то ему еще нельзя кататься на данном аттракционе");}
-        if (ageChildren > 5 && ageChildren <= 14) {
-            System.out.println("Если ребенку " + ageChildren + ", кататься на данном аттракционе можно только с сопровождением взрослого");}
-        if (ageChildren > 14) {
-            System.out.println("Если ребенку " + ageChildren + ", то ему еще нельзя кататься на данном аттракционе ,без присутствия взрослого");}
+        else if (ageChildren > 5 && ageChildren <= 14) {
+            System.out.println("Если ребенку " + ageChildren + ", кататься на данном аттракционе можно только с сопровождением взрослого");
+        } else {
+            System.out.println("Если ребенку " + ageChildren + ", то ему можно кататься на данном аттракционе ,без присутствия взрослого");}
 
-        //Задача №9
+        //Задача №9  // else мне совсем не понятен!
         System.out.println("Задача №9");
+        int one = 10;
+        int two = 33;
+        int three = 50;
+        if ( one > two && one > three){
+            System.out.println("Первое число самое большое");}
+            else if (two > three && two > one) {
+            System.out.println("Второе число самое большое");
+        } else {
+            System.out.println("Третье число самое большое");}
 
 
 
