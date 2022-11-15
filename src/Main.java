@@ -96,14 +96,17 @@ public class Main {
         //Задача №9  // else мне совсем не понятен!
         System.out.println("Задача №9");
         int one = 10;
-        int two = 33;
+        int two = 40;
         int three = 50;
         if ( one > two && one > three){
             System.out.println("Первое число самое большое");}
             else if (two > three && two > one) {
-            System.out.println("Второе число самое большое");
-        } else {
-            System.out.println("Третье число самое большое");}
+            System.out.println("Второе число самое большое");}
+            else if (three > one && three > two) {
+            System.out.println("Третье число самое большое");
+            } else {
+                System.out.println("Числа равны");
+        }
 
 
 
